@@ -2,9 +2,16 @@
 Simple RSA key generation, text encryption and ciphertext decryption
 
 ## usage
-**key generation :** ./rsa -g B<br />
-**text encryption :** ./rsa -e E N M<br />
-**ciphertext decryption :** ./rsa -d D N C<br />
+
+<dl>
+  <dt>key generation:</dt>
+  <dd>input: ./rsa -g B<br />output: P Q N E D</dd>
+<dl>
+  <dt>text encryption:</dt>
+  <dd>input: ./rsa -e E N M<br />output: C</dd>
+<dl>
+  <dt>ciphertext decryption:</dt>
+  <dd>input: ./rsa -d D N C<br />output: M</dd>
 
 B ... size of public modulus in bits<br />
 P ... randomly generated prime number<br />
