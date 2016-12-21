@@ -1,5 +1,5 @@
-# rsa-implementation
-Simple RSA key generation, text encryption and ciphertext decryption
+# RSA implementation using GMP
+Simple RSA key generation, text encryption and ciphertext decryption.
 
 ## usage
 

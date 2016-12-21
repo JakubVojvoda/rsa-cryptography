@@ -1,11 +1,13 @@
-/**
- * 
- * Simple RSA implementation
- * by Jakub Vojvoda [vojvoda@swdeveloper.sk]
+/*
+ * Simple RSA implementation using GMP
+ * by Jakub Vojvoda [github.com/JakubVojvoda]
  * 2016
+ *
+ * Source code is licensed under MIT License
+ * (for more details see LICENSE)
  * 
- **/
-
+ */
+ 
 #include <iostream>
 #include <fstream>
 #include <vector>
